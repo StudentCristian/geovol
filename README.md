@@ -1,5 +1,6 @@
 Estructura del proyecto
 
+```
 .
 ├── README.md
 ├── app
@@ -90,11 +91,14 @@ Estructura del proyecto
 │   ├── vercel.svg
 │   └── window.svg
 └── tsconfig.json
+```
 
 
 funciono código funcional actaul
 ahora que paso sigue?
 app/page.tsx
+
+```ts
 'use client';  
   
 import { useChat } from '@ai-sdk/react';  
@@ -347,3 +351,4 @@ export async function POST(req: Request) {
     sendSources: true, 
   });    
 }
+```
