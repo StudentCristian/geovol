@@ -64,7 +64,7 @@ export default function ChatPage() {
         <ConversationContent>  
           {messages.length === 0 && (  
             <div className="flex flex-col items-center justify-center h-full">  
-              <p className="text-gray-500 mb-4">Selecciona una pregunta o escribe tu consulta:</p>  
+              <p className="text-gray-500 mb-4">Selecciona una pregunta o escribe tu consulta</p>  
               <Suggestions>  
                 {suggestions.map((text, i) => (  
                   <Suggestion   
